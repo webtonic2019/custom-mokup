@@ -1,0 +1,316 @@
+@import url('https://fonts.googleleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleleapis.com/css?family=Oswald&display=swap');
+body{
+	margin: 0;
+
+}
+.topbar{
+	background-color: #f1f1f1;
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: dotted purple;
+}
+#banner{
+			background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(cos2.jpg); 
+	height: 550px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+    
+}
+#gbanner{
+	background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(cos2.jpg);
+	height: 170px;
+	background-repeat: no-repeat;
+	display: flex;
+	background-size: cover;
+	color: white;
+	align-items: center;
+}
+.Apply{
+	font-size: 50px;
+	letter-spacing: 3px;
+	font-family: 'Oswald',sans-serif;
+}
+.Start{
+	font-size: 30px;
+	letter-spacing: 2px;
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Montserrat',sans-serif;
+}
+#application{
+	display: flex;
+	justify-content: space-between;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: -150px;
+}
+#big{
+	background:linear-gradient(rgba(110,3,47,0.89),rgba(109,3,47,0.89)), url(cos2.jpg); 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex: 1;
+	margin-right: 15px;
+}
+.B1{
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+	color: white;
+}
+.r1{
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+.V1{
+	font-size: 30px;
+	text-align: center;
+	border: 3px solid white;
+	border-radius: 5px;
+	margin-right: 70px;
+	margin-left: 70px;
+	padding: 5px;
+	color: white;	
+}
+#medium{
+	background:linear-gradient(rgba(49,67,58,0.89),rgba(49,67,58,0.89)), url(cos2.jpg); 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex: 1;
+	margin-right: 15px;
+}
+.B2{
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+}
+.r2{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+.V2{
+	font-size: 30px;
+	text-align: center;
+	border: 3px solid white;
+	margin-right: 70px;
+	border-radius: 5px;
+	margin-left: 70px;
+	padding: 5px;
+	color: white;
+}
+#small{
+	background:linear-gradient(rgba(11,3,47,0.89),rgba(11,3,47,0.89)), url(cos2.jpg); 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex: 1;
+	margin-right: 10px;
+
+}
+.B3{
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+	color: white;
+}
+.r3{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+.V3{
+	font-size: 30px;
+	text-align: center;
+	border: 3px solid white;
+	margin-right: 70px;
+	border-radius: 5px;
+	margin-left: 70px;
+	padding: 5px;
+	color: white;
+}
+#regbanner{
+			background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(cos2.jpg); 
+	height: 170px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+#lbanner{
+			background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(cos2.jpg); 
+	height: 170px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+.l1{
+background:linear-gradient(rgba(49,67,58,0.89),rgba(49,67,58,0.89)), url(cos2.jpg);
+	display: flex;
+	justify-content: center;
+	flex: 1;
+	background-repeat: no-repeat;
+	background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;	
+    margin-top: 10px;
+}
+#abanner{
+		background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(cos2.jpg); 
+	height: 170px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+#Mini{
+    background:linear-gradient(rgba(11,3,47,0.89),rgba(11,3,47,0.89)), url(cos2.jpg); 
+	flex: 1;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+    margin-top: -500px;	
+    margin-left: 300px;
+    margin-right: 300px;
+}
+a:hover{
+		background-color: gray;
+		border-radius: 7px;
+	}
+a{
+		text-decoration: none;
+		font-weight: bold;
+		padding: 8px;
+	}
+	}
+		a.V1:hover{
+			border-radius: 7px;
+			background: gray;
+		}
+		a.V2:hover{
+			border-radius: 7px;
+		    background: gray;
+		}
+		a.V3:hover{
+			background: gray;
+			border-radius: 7px;
+		}
+        footer{
+        	background: darkgray;
+        	display: flex;
+        	justify-content: space-between;
+        	flex-direction: row;
+        	align-items: center;
+        	height: 120px;
+        }
+        .p1{
+        	background: darkgray;
+        }
+        .p2{
+        	background: darkgray;
+        }
+        .p3{
+        	background: darkgray;
+        }
+        .web{
+        	background-color: darkgray;
+        }
+        #sidebar a{ 
+        
+        	text-decoration: none;
+        	vertical-align: middle;
+        	text-align: center;
+        	line-height: 3;
+        }
+        label{
+      	font-size: 15px;
+      	color: white;
+
+      }
+        p{
+        	color: white;
+        	position: relative;
+        	left: 30px;
+        	font-family: 'lato'
+        }
+        #sidebar{
+        	height: 250px;
+        	width: 10px;
+        	position: fixed;
+        	text-align: center;
+        	padding: 10px;
+        	margin-left: 10px;
+        }
+        /* p i{
+        	left: 30px;
+        	position: relative;
+        	vertical-align: middle;
+        	text-align: center;
+        	font-size: 24px;
+        }*/
+       /* .social{
+        	margin-left: -200px;
+        	width: 230px;
+        	padding: 0px;
+        	display: inline-table;
+        	height: 0px;
+        	background-color: rgba(128,128,128,0.73);
+        	transition-property: margin-left;
+        	transition-duration: 0.2s;
+        	transition-delay: 0.2s;
+        	box-shadow: 0px 0px 6px 0px;*/
+        /*	cursor: pointer;
+        }
+        .social:hover{
+          margin-left: -30px
+          width: 230px;
+          background-color: #3b5998;
+        }
+        .facebook:hover{
+        	background-color: #3b5998;
+        }
+        .twitter:hover{
+        	background-color: #3b5998;
+        }
+        .google:hover{
+        	background-color: #3b5998;
+        }
+        .instergram:hover{
+        	background-color: #3b5998;
+        }*/
+        /*.linkedin p i{
+        	left: 10px;
+        }
+        .google p i{
+        	left: 10px;
+        }
+        .youtube:hover{
+        background-color: #3b5998;
+        }
+        .linkedin:hover{
+        	background-color: #3b5998;
+        }*/
